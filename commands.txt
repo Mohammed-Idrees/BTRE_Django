@@ -1,0 +1,21 @@
+Create Virtual Env
+    sudo apt-get install python3-venv
+    python3 -m venv ./venv                      #for creating virtual environment
+    source ./venv/bin/activate                  #activate virtual environment
+    pip install django                          #install django any other modules 
+    pip install autopep8
+
+Django-commands:
+    django-admin help
+    django-admin startproject btre .            # to Create a project
+
+    python manage.py runserver                  # run django
+
+    python manage.py startapp pages             #creating an app
+    
+    add 'pages.apps.PagesConfig' in INSTALLED_APPS(btre project)
+
+    python manage.py collectstatic              # to collect the static files
+
+    python manage.py startapp listings
+    python manage.py startapp realtors
