@@ -5,6 +5,7 @@ Create Virtual Env
     pip install django                          #install django any other modules 
     pip install autopep8
     pip install pillow
+    pip install pylint-django
 
 Django-commands:
     django-admin help
