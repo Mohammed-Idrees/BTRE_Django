@@ -76,3 +76,6 @@ python manage.py migrate
 python manage.py sqlmigrate listings 0001
 
 python manage.py createsuperuser # create super user
+
+
+python manage.py startapp accounts
