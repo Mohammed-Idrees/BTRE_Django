@@ -79,3 +79,6 @@ python manage.py createsuperuser # create super user
 
 
 python manage.py startapp accounts
+python manage.py startapp contacts
+python manage.py makemigrations contacts
+python manage.py migrate
